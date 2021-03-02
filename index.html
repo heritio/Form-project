@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Forms</title>
 </head>
 <body>
+    <form class="ourform">
+           <label for="email">Email</label>
+           <input type="email" id="email" required minlength="3" class="marg">
+           <label for="country">Country</label>
+           <input type="text" id="country" required minlength="4" class="marg">
+           <label for="zipcode">Zip Code</label>
+           <input type="text" id="zipcode" required minlength="5" maxlength="5" class="marg">
+           <label for="password">Password</label>
+           <input type="password" required minlength="6" class="marg">
+           <label for="confirmpassword">Password confirmation</label>
+           <input type="password" required minlength="6" class="marg">
+           <button type="submit">Submit</button>
+    </form>
     
 </body>
 </html>

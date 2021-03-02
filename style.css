@@ -1,0 +1,20 @@
+input:invalid{
+  border: 2px dashed red;
+}
+
+input:invalid:required {
+    background-color: lightgray;
+  }
+
+input:valid{
+ border: 2px solid black;
+}
+
+.ourform{
+     display: flex;
+     flex-direction: column;
+     width: 20%;
+}
+.marg{
+    margin-bottom: 10px;
+}
